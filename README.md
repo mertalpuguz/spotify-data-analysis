@@ -1,10 +1,11 @@
 # spotify-data-analysis
 Project Overview:
-This project is focused on analyzing Spotify listening history to explore changes in musical preferences and to build a music recommendation system. The analysis involves examining shifts in music genres and mood pre- and post-pandemic. The recommendation system uses machine learning techniques to suggest similar songs based on user input.
+This project is focused on analyzing Spotify listening history to explore changes in musical preferences and to build a music recommendation system. The analysis involves examining shifts in music genres and moods pre- and post-pandemic. The recommendation system uses machine learning techniques to suggest similar songs based on user input.
 
+My Hypothesis: I hypothesize that the kinds of music that I am listening to after the pandemic have more cultural genres like Turkish pop, and Turkish classics than pre-pandemic. 
 Data Analysis: Analyze changes in music preferences over time, focusing on genres and mood (valence, energy, tempo).
 
-Music Recommendation: Recommend songs that are similar to a user's chosen track based on various musical features.
+Music Recommendation: Recommend songs similar to a user's chosen track based on various musical features.
 
 Data:
 The project utilizes personal Spotify listening history. The data is divided into two periods:
@@ -28,4 +29,4 @@ Visualizations include histograms, box plots, and bar graphs.
 Music Recommendation:
 
 Use the recommend_song function to input a song name.
-The system will output a list of songs that are similar based on the selected features.
+The system will output a list of similar songs based on the selected features.
